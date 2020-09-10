@@ -6,11 +6,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.sundayamuke.leaderboard.databinding.ItemDetailsBinding
+import com.sundayamuke.leaderboard.databinding.ItemLearningBinding
 import com.sundayamuke.leaderboard.model.LearningLeader
 
-class LeaderBoardAdapter()
-    : ListAdapter<LearningLeader, LeaderBoardAdapter.BoardViewHolder>(DiffCallback) {
+class LearningBoardAdapter()
+    : ListAdapter<LearningLeader, LearningBoardAdapter.BoardViewHolder>(DiffCallback) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BoardViewHolder {
         return BoardViewHolder.from(parent)
@@ -31,7 +31,7 @@ class LeaderBoardAdapter()
         }
     }
 
-    class BoardViewHolder private constructor(private var binding: ItemDetailsBinding)
+    class BoardViewHolder private constructor(private var binding: ItemLearningBinding)
         : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(learningLeader: LearningLeader) {
@@ -43,7 +43,7 @@ class LeaderBoardAdapter()
         companion object {
             fun from(parent: ViewGroup): BoardViewHolder {
                 val layoutInflater = LayoutInflater.from(parent.context)
-                val binding = ItemDetailsBinding.inflate(layoutInflater, parent, false)
+                val binding = ItemLearningBinding.inflate(layoutInflater, parent, false)
                 return BoardViewHolder(binding)
             }
 
