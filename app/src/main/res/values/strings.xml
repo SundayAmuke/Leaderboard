@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Leaderboard</string>
+    <string name="learning_leader_text">%d Learning Hours, %s</string>
+    <string name="skill_leader_text">%d skill IQ Score, %s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit_text">Submit</string>
 </resources>
