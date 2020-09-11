@@ -2,7 +2,19 @@
     <string name="app_name">Leaderboard</string>
     <string name="learning_leader_text">%d Learning Hours, %s</string>
     <string name="skill_leader_text">%d skill IQ Score, %s</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="submit_text">Submit</string>
+    <string name="gads_text"><b>Google</b> Africa\nDeveloper Scholarship</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="first_name_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="email_address_text">Email Address</string>
+    <string name="project_on_github_link_text">Project on GITHUB (link)</string>
+    <string name="are_you_sure_text">Are you sure</string>
+    <string name="question_mark">?</string>
+    <string name="yes_text">Yes</string>
+    <string name="cancel_text">Cancel Dialog</string>
+    <string name="warning_alert_text">Warning alert</string>
+    <string name="submission_not_successful_text">Submission not Successful</string>
+    <string name="successfully_submitted_text">Successfully submitted</string>
+    <string name="submission_successful_text">Submission Successful</string>
 </resources>
